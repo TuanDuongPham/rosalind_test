@@ -1,0 +1,11 @@
+name: myproject
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pip
