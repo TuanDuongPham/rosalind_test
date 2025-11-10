@@ -20,11 +20,11 @@ rna_codon_dict = {
 
 def translate_rna_to_protein(rna_sequence):
     protein_sequence = ""
-    i = 0
 
+    i = 0
     while i < len(rna_sequence) - 3:
         codon = rna_sequence[i:i+3]
-        amino_acid = rna_codon_dict.get(codon, "")
+        amino_acid = rna_codon_dict[codon]
 
         # Use this condition when START codon is required
         if amino_acid != "M" and len(protein_sequence) == 0:
