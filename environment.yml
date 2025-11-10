@@ -1,4 +1,4 @@
-name: myproject
+name: rosalind_test
 channels:
   - conda-forge
 dependencies:
