@@ -1,5 +1,5 @@
 from helper.extract_fasta_seqences import extract_fasta_sequences
-from P8_translating_RNA_into_protein import translate_rna_to_protein
+from P08_translating_RNA_into_protein import translate_rna_to_protein
 
 
 def rna_splicing(fasta_sequence):

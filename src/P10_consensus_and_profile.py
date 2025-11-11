@@ -1,5 +1,5 @@
 import numpy as np
-from P5_computing_GC_content import extract_fasta_sequences
+from P05_computing_GC_content import extract_fasta_sequences
 
 
 def check_dna_sequence_lengths(dna_sequences):
