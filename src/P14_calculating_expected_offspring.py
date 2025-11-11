@@ -6,6 +6,14 @@ Possible genotype combinations between two parents:
 4. Aa - Aa
 5. Aa - aa
 6. aa - aa
+
+Therefore, the expected number of offspring displaying the dominant phenotype from each genotype combination is:
+1. AA - AA: 100% (1.0)
+2. AA - Aa: 100% (1.0)
+3. AA - aa: 100% (1.0)
+4. Aa - Aa: 75% (0.75)
+5. Aa - aa: 50% (0.5)
+6. aa - aa: 0% (0.0)
 """
 
 
